@@ -4,6 +4,6 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-        "startCommand": "langchain serve --host 0.0.0.0 --port $PORT"
+        "startCommand": "python my-chatbot/app/promtiorChatbot.py runserver"
     }
 }
