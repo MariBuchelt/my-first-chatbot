@@ -4,6 +4,6 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-        "startCommand": "python my-chatbot/app/promtiorChatbot.py runserver"
+        "startCommand": "python /app/promtiorChatbot.py runserver"
     }
 }
